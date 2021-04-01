@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     sequel-plugins-soft-deletes (0.1.0)
-      sequel
 
 GEM
   remote: https://rubygems.org/
@@ -48,7 +47,7 @@ GEM
     rubocop-sequel (0.2.0)
       rubocop (~> 1.0)
     ruby-progressbar (1.11.0)
-    sequel (5.42.0)
+    sequel (5.43.0)
     unicode-display_width (2.0.0)
 
 PLATFORMS
@@ -61,6 +60,7 @@ DEPENDENCIES
   rubocop-performance
   rubocop-rake
   rubocop-sequel
+  sequel (~> 5.43)
   sequel-plugins-soft-deletes!
 
 BUNDLED WITH
