@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "sequel/plugins/soft-deletes"
+require "sequel/plugins/soft_deletes"
 
 RSpec.configure do |config|
   # config.full_backtrace = true

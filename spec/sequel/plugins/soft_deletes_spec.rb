@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "active_support/core_ext/integer/time"
-require "sequel/plugins/soft-deletes"
+require "sequel/plugins/soft_deletes"
 require "sequel"
 require "sqlite3"
 
