@@ -3,7 +3,7 @@
 require_relative "lib/sequel/plugins/soft_deletes"
 
 Gem::Specification.new do |spec|
-  spec.name          = "sequel-plugins-soft-deletes"
+  spec.name          = "sequel-soft-deletes"
   spec.version       = Sequel::Plugins::SoftDeletes::VERSION
   spec.authors       = ["Lithic Tech"]
   spec.email         = ["hello@lithic.tech"]
@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.summary       = "Gem for enabling soft-deletion in tables"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+
+  spec.files = Dir["{spec,lib}/**/*.rb"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
@@ -26,5 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop-rspec"
   spec.add_development_dependency "rubocop-sequel"
   spec.add_development_dependency "sequel"
-  spec.add_dependency "sqlite3"
+  spec.add_development_dependency "sqlite3"
 end

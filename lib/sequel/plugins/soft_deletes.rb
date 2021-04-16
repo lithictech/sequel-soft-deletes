@@ -19,7 +19,7 @@ require "sequel/model"
 #   end
 #
 module Sequel::Plugins::SoftDeletes
-  VERSION = "0.1.0"
+  VERSION = "0.1.3"
 
   # Default plugin options
   DEFAULT_OPTIONS = {
